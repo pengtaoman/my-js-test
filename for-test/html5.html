@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+		var toggleHidden = function() {
+		var elem = document.getElementById("toggle");
+		if (elem.hasAttribute("hidden")) {
+		elem.removeAttribute("hidden");
+		} else {
+		elem.setAttribute("hidden", "hidden");
+		}
+		}
+    var loc = localStorage.getItem("A00000000001");
+    if (!loc) {
+        alert("NO localStorage");
+        localStorage.setItem("A00000000001", "alibabbabbabababbabbababbaba");
+    } else {
+      console.log(loc);
+    }
+</script>
+
+</head>
+<body>
+<code>
+&lt;<
+var aa = "asdfasdf";<br>
+function a() {
+	this.bbb = "asdfasdfa";
+}
+</code>
+<br>
+var aa = "asdfasdf";
+
+Enter your name: <input>
+&lt;&lt;&lt;
+
+<br>
+<p contenteditable="true">It is raining right now</p>
+
+<br>
+<p dir="rtl">This is right-to-left</p>
+<p dir="ltr">This is left-to-right</p>
+
+<br>
+
+<button onclick="toggleHidden()">Toggle</button>
+<table>
+<tr><th>Name</th><th>City</th></tr>
+<tr><td>Adam Freeman</td><td>London</td></tr>
+<tr id="toggle" hidden><td>Joe Smith</td><td>New York</td></tr>
+<tr><td>Anne Jones</td><td>Paris</td></tr>
+</table>
+
+
+<br>
+
+<p lang="en">Hello - how are you?阿斯顿发射点</p>
+<p lang="fr">Bonjour - comment êtes-vous?</>
+<p lang="es">Hola - ¿cómo estás?</p>
+
+
+<br>
+<textarea spellcheck="true">This is some mispelledsse text</textarea>
+<br>
+<a title="Apress Publishing" href="http://apress.com">Visit the Apress site</a>
+<br>
+More information can be found in <cite>[ISO-0000]234242434afaef</cite>.
+
+<br>
+<p><del>This text has been deleted</del>, here is the rest of the paragraph.</p>
+<del ><p >This paragraph has been deleted.</p ></del >
+  <br>
+
+  <!-- Define "The Internet" -->
+<p><dfn id="def-internet">The Internet</dfn> is a global
+system of interconnected networks that use the Internet
+Protocol Suite (TCP/IP) to serve billions of users
+worldwide.</p>
+
+<br>
+<dl>
+  <!-- Define "World-Wide Web" and reference
+       definition for "the Internet" -->
+  <dt>
+    <dfn>
+      <abbr title="World-Wide Web">WWW</abbr>
+    </dfn>
+  </dt>
+  <dd>The World-Wide Web (WWW) is a system of
+  interlinked hypertext documents accessed on
+  <a href="#def-internet">the Internet</a>.</dd>
+</dl>
+<BR>
+  <p>
+    In HTML 5, what was previously called
+    <em>block-level</em> content is now called
+    <em>flow</em> content.
+  </p>
+  <BR>
+    <p>The Latin phrase <i>Veni, vidi, vici</i> is often
+    mentioned in music, art, and literature</p>
+    <BR>
+<ins>This text has been inserted</ins>
+      <BR>
+        <p>Type the following in the Run dialog:
+          <kbd>cmd</kbd><br />Then click the OK button.</p>
+
+        <p>Save the document by pressing
+          <kbd>Ctrl</kbd> + <kbd>S</kbd></p>
+        <BR>
+          <p>The &lt;mark&gt; element is used to
+            <mark>highlight</mark> text</p>
+          <BR>
+            <p>According to Mozilla's website,
+              <q
+              cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0
+              was released in 2004 and became a big success.</q></p>
+            <BR>
+              <ruby>
+                漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+                字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+              </ruby>
+              <BR>
+<abbr title="Internationalization">I18N</abbr>
+                <BR>
+                  <p dir="ltr">This arabic word <bdi>ARABIC_PLACEHOLDER</bdi>
+                  is automatically displayed right-to-left.</p>
+                  <BR>
+                    <s>Today's Special: Salmon</s> SOLD OUT<br>
+                    <span style="text-decoration:line-through;">Today's Special:
+                      Salmon</span> SOLD OUT                    <BR>
+
+                        <p>Regular text. <samp>This is sample text.</samp>
+  Regular text.</p>
+<br>
+<p>The chemical formula of water: H<sub>2</sub>O</p>
+<br>
+<u>Today's Special</u>: Salmon<br />
+<span style="text-decoration:underline;">Today's Special</span>:
+  Salmon
+<!-- Here <span> is used as the underlining is purely decorative
+  and it is applied with CSS -->
+<br>
+<p>http://this<wbr>.is<wbr>.a<wbr>.really<wbr>.long<wbr>.example<wbr>.com/With<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages</p>
+<br>
+<blockquote cite="http://developer.mozilla.org">
+  <p>This is a quotation taken from
+  the Mozilla Developer Center.</p>
+  <p>This is a quotation taken from
+  the Mozilla Developer Center.</p>
+  <p>This is a quotation taken from
+  the Mozilla Developer Center.</p>
+  <p>This is a quotation taken from
+  the Mozilla Developer Center.</p>
+</blockquote>
+<br>
+The HTML <dd> element indicates the description of a term in a description list ().
+<br>
+<dl>
+  <dt>Firefox</dt>
+  <dt>Mozilla Firefox</dt>
+  <dt>Fx</dt>
+  <dd>A free, open source, cross-platform,
+      graphical web browser developed by the
+      Mozilla Corporation and hundreds of
+      volunteers.</dd>
+
+  <!-- other terms and descriptions -->
+</dl>
+<br>
+<dl>
+  <dt>Name</dt>
+  <dd>Godzilla</dd>
+  <dt>Born</dt>
+  <dd>1952</dd>
+  <dt>Birthplace</dt>
+  <dd>Japan</dd>
+  <dt>Color</dt>
+  <dd>Green</dd>
+</dl>
+<br>
+<dl>
+  <div>
+    <dt>Name</dt>
+    <dd>Godzilla</dd>
+  </div>
+  <div>
+    <dt>Born</dt>
+    <dd>1952</dd>
+  </div>
+  <div>
+    <dt>Birthplace</dt>
+    <dd>Japan</dd>
+  </div>
+  <div>
+    <dt>Color</dt>
+    <dd>Green</dd>
+  </div>
+</dl>
+<br>
+<!-- Just a figure -->
+<figure>
+  <img
+  src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png"
+  alt="An awesome picture">
+</figure>
+<p></p>
+<!-- Figure with figcaption -->
+<figure>
+  <img
+  src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png"
+  alt="An awesome picture">
+  <figcaption>Fig1. MDN Logo</figcaption>
+</figure>
+<p></p>
+<br>
+<ol>
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+</ol>
+<br>
+<ol type="I">
+    <li value="3">third item</li>
+    <li>fourth item</li>
+    <li>fifth item</li>
+</ol>
+<br>
+<!-- Some example CSS code -->
+<pre>
+body {
+  color:red  ;
+}
+</pre>
+<br>
+<address>
+    You can contact author at <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
+    If you see any bugs, please <a href="mailto:webmaster@somedomain.com">contact webmaster</a>.<br>
+    You may also want to visit us:<br>
+    Mozilla Foundation<br>
+    1981 Landings Drive<br>
+    Building K<br>
+    Mountain View, CA 94043-0801<br>
+    USA
+  </address>
+<br>
+<article>
+  <p>
+    The Disney movie <em>The Little Mermaid</em> was
+    first released to theatres in 1989.
+  </p>
+  <aside>
+    <p>
+      The movie earned $87 million during its initial release.
+    </p>
+  </aside>
+  <p>
+    More info about the movie...
+  </p>
+</article>
+<br>
+<details>
+  <summary>Some details</summary>
+  <p>More info about the details.</p>
+</details>
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+</body>
+</html>

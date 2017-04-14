@@ -1,0 +1,28 @@
+{
+  "name": "for-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-fileinput": "^4.3.8",
+    "http-server": "^0.9.0",
+    "ionicons": "^3.0.0",
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-validation": "^1.16.0",
+    "jsrender": "^0.9.83",
+    "jsviews": "^0.9.83",
+    "lodash": "^3.10.1",
+    "lodash-cli": "^3.10.1",
+    "net-snmp": "^1.1.19",
+    "snmp": "^0.1.0",
+    "selectivizr": "^1.0.3",
+    "validator": "^7.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
